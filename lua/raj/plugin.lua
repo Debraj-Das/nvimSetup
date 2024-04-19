@@ -13,7 +13,24 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-local plugins = {}
+local plugins = {
+	{ 
+		"catppuccin/nvim", name = "catppuccin", priority = 1000 
+	},
+	{
+		'nvim-telescope/telescope.nvim', tag = '0.1.6',
+		dependencies = { 'nvim-lua/plenary.nvim' }
+	}
+}
 local opts = {}
 
 require("lazy").setup(plugins, opts)
+
+-- colorscheme catppuccin setup
+require("catppuccin").setup()
+vim.cmd.colorscheme "catppuccin-mocha"
+
+-- telescope builtin setting
+local builtin = require('telescope.builtin')
+vim.api.nvim_set_keymap('n', '<leader>ff', builtin.find_files, {})
+vim.api.nvim_set_keymap('n', '<leader>fg', builtin.live_grep, {})

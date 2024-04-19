@@ -31,9 +31,9 @@ vim.api.nvim_set_keymap('n', '<Leader>k', '<esc>:tabnext<CR>', { noremap = true 
 vim.api.nvim_set_keymap('n', '<Leader>y', '<esc>:%y+<CR>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<Leader>v', '<C-v>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<Leader>r', '<C-r>', { noremap = true })
-vim.api.nvim_set_keymap('n', '<Leader>s', ':w <CR>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<Leader>s',  ':w <CR>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<Leader>e',  ':Ex <CR>' , { noremap = true })
-vim.api.nvim_set_keymap('n', '<Leader>q', ':q <CR>' , {noremap = true })
+vim.api.nvim_set_keymap('n', '<Leader>q',  ':q <CR>', {noremap = true })
 vim.api.nvim_set_keymap('n', '<Leader>h', ':set hlsearch!<CR>', { noremap = true })
 
 
