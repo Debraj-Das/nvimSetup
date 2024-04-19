@@ -32,5 +32,5 @@ vim.cmd.colorscheme "catppuccin-mocha"
 
 -- telescope builtin setting
 local builtin = require('telescope.builtin')
-vim.api.nvim_set_keymap('n', '<leader>ff', builtin.find_files, {})
-vim.api.nvim_set_keymap('n', '<leader>fg', builtin.live_grep, {})
+vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
+vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
