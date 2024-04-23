@@ -32,7 +32,6 @@ vim.keymap.set('n', '<Leader>y', '<esc>:%y+<CR>', { noremap = true })
 vim.keymap.set('n', '<Leader>v', '<C-v>', { noremap = true })
 vim.keymap.set('n', '<Leader>r', '<C-r>', { noremap = true })
 vim.keymap.set('n', '<Leader>s',  vim.cmd.w, { noremap = true })
-vim.keymap.set('n', '<Leader>e',  vim.cmd.Ex, { noremap = true })
 vim.keymap.set('n', '<Leader>q',  vim.cmd.q, {noremap = true })
 vim.keymap.set('n', '<Leader>h', ':set hlsearch!<CR>', { noremap = true })
 

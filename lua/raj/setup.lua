@@ -76,4 +76,3 @@ vim.o.foldmethod = "manual"
 
 -- Add "**" to the search path
 vim.o.path = vim.o.path .. ",**"
-
