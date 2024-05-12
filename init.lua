@@ -19,4 +19,4 @@ require("lazy").setup("plugins")
 
 
 -- Author basic setup, remap, .. etc 
-require("raj")
+require("setting")
