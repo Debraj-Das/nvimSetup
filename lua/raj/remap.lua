@@ -25,7 +25,6 @@ vim.keymap.set('i', '<C-Up>', '<esc>:m-2<CR>', { noremap = true })
 vim.keymap.set('i', '{<CR>', '{<CR>}<esc>ko', { noremap = true })
 
 -- Other mappings
-vim.g.mapleader = " "
 vim.keymap.set('n', '<Leader>j', '<esc>:tabprevious<CR>', { noremap = true })
 vim.keymap.set('n', '<Leader>k', '<esc>:tabnext<CR>', { noremap = true })
 vim.keymap.set('n', '<Leader>y', '<esc>:%y+<CR>', { noremap = true })

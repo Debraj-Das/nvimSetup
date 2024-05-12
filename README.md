@@ -16,12 +16,21 @@ git clone https://github.com/Debraj-Das/nvimSetup.git
 ```bash
 mv nvimSetup nvim
 ```
-7. Only run nvim and start installing all nessary plugins itself. It will take some time.
+7. Install lua for neovim
+- Ubuntu or Debian based
+```bash
+sudo apt install lua
+```
+- Arch based
+```bash
+sudo pacman -S lua
+```
+8. Only run nvim and start installing all nessary plugins itself. It will take some time.
 
 **Enjoy your new neovim setup.**
 
 ## Some useful information about neovim setup
-1. My neovim setup present in lua/raj/ directory.
+1. Author Neovim setup present in lua/raj/ directory.
 2. plugins are present in lua/plugins directory.
 3. keymappings are present in lua/raj/remap.lua file.
 4. basic settings are present in lua/raj/setup.lua file.
