@@ -12,11 +12,11 @@ git clone https://github.com/Debraj-Das/nvimSetup.git ~/.config/nvim
 **Enjoy your new neovim setup.**
 
 ## Some useful information about neovim setup
-1. Neovim setting present in lua/setting/ directory.
+1. Neovim Debraj Das setting present in lua/debraj/ directory.
 2. plugins are present in lua/plugins/ directory.
 
 ## Some details about neovim setup
 1. leader key is space key. if you want to change it, then change it in init.lua file.
-2. clipboard is enabled according to wsl clipboard. if you want to change it in lua/setting/clipboard.lua file.
-3. keymappings are present in lua/setting/remap.lua file.
-4. basic settings are present in lua/setting/setup.lua file.
+2. clipboard is enabled according to wsl clipboard. if you want to change it in lua/debraj/clipboard.lua file.
+3. keymappings are present in lua/debraj/remap.lua file.
+4. basic settings are present in lua/debraj/setup.lua file.
