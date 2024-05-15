@@ -5,7 +5,7 @@ vim.g.mapleader = " "
 vim.keymap.set({'n', 'v'}, '<TAB>', '%', { noremap = true })
 
 -- Normal mode key bindings
-vim.keymap.set('n', '<CR>', 'o<esc>', { noremap = true })
+vim.keymap.set('n', '<CR>', 'o<ESC>', { noremap = true })
 vim.keymap.set('n', '<C-j>', ':m+1<CR>', { noremap = true })
 vim.keymap.set('n', '<C-k>', ':m-2<CR>', { noremap = true })
 vim.keymap.set('n', 'd', '"_d', { noremap = true })
@@ -33,3 +33,7 @@ vim.keymap.set('n', '<Leader>y', '<esc>:%y+<CR>', { noremap = true })
 vim.keymap.set('n', '<Leader>v', '<C-v>', { noremap = true })
 vim.keymap.set('n', '<Leader>r', '<C-r>', { noremap = true })
 vim.keymap.set('n', '<Leader>h', ':set hlsearch!<CR>', { noremap = true })
+vim.keymap.set('n', '<Leader>mj', '<C-w>j', { noremap = true })
+vim.keymap.set('n', '<Leader>mk', '<C-w>k', { noremap = true })
+vim.keymap.set('n', '<Leader>mh', '<C-w>h', { noremap = true })
+vim.keymap.set('n', '<Leader>ml', '<C-w>l', { noremap = true })
