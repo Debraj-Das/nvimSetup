@@ -76,3 +76,14 @@ vim.o.foldmethod = "manual"
 
 -- Add "**" to the search path
 vim.o.path = vim.o.path .. ",**"
+
+-- search settings
+vim.o.hlsearch = false
+vim.o.incsearch = true
+
+-- scroll settings
+vim.o.scrolloff = 8
+
+-- do not swap files
+vim.o.swapfile = false
+vim.o.backup = false
