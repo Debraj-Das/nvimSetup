@@ -26,3 +26,7 @@ git clone https://github.com/Debraj-Das/nvimSetup.git ~/.config/nvim
 2. [marks and fold](https://www.youtube.com/watch?v=ovRqGybIg1Q&t=8s)
 3. [spcial characters](https://www.youtube.com/watch?v=Za5GRXP1ycM)
 4. [vim tutorial](https://www.youtube.com/playlist?list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
+
+## Documentation
+1. [Snippets](https://github.com/L3MON4D3/LuaSnip/blob/master/DOC.md)
+
