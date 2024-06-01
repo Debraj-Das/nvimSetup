@@ -56,9 +56,6 @@ vim.wo.number = true
 -- Display relative line numbers
 vim.wo.relativenumber = true
 
--- explorer setting
-vim.g.netrw_bufsettings = 'noma nomod nu nowrap ro nobl'
-
 -- Set backspace behavior
 vim.o.backspace = "2"
 
@@ -90,3 +87,7 @@ vim.o.scrolloff = 8
 -- do not swap files
 vim.o.swapfile = false
 vim.o.backup = false
+
+-- set split window to open below and to the right
+vim.o.splitbelow = true
+vim.o.splitright = true

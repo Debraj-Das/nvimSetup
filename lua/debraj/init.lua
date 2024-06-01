@@ -12,3 +12,9 @@ require("debraj.keybinding")
 
 -- package manager setting
 require("debraj.lazy")
+
+-- terminal setting for neovim
+require("debraj.terminal")
+
+-- explorer setting for neovim
+require("debraj.explorer")
